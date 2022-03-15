@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: grid;
+  background-color: rgb(160, 160, 160);
+}
+
+header {
+  text-align: center;
+  background-color: burlywood;
+}
+
+div.info {
+  text-align: center;
+  color: black;
+  background-color: rgb(206, 139, 80);
+}
+
+div.image-container {
+  display: grid;
+}
+
+img {
+  align-self: center;
+  justify-self: center;
+  height: 625px;
+  width: auto;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  background-color: rgb(206, 139, 80);
+}
