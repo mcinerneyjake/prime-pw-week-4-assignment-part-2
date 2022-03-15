@@ -6,7 +6,7 @@
 
 html {
   display: grid;
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(192, 191, 191);
 }
 
 header {
@@ -27,8 +27,12 @@ div.image-container {
 img {
   align-self: center;
   justify-self: center;
-  height: 625px;
+  height: 620px;
   width: auto;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 2px #888;
 }
 
 h3 {
