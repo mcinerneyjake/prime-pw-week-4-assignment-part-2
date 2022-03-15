@@ -18,6 +18,9 @@ div.info {
   text-align: center;
   color: black;
   background-color: rgb(206, 139, 80);
+  border: 2px solid black;
+  margin-left: 285px;
+  margin-right: 285px;
 }
 
 div.image-container {
@@ -27,7 +30,7 @@ div.image-container {
 img {
   align-self: center;
   justify-self: center;
-  height: 620px;
+  height: 610px;
   width: auto;
   border: 2px solid black;
   margin-top: 10px;
@@ -35,7 +38,20 @@ img {
   box-shadow: 2px 2px 2px 2px #888;
 }
 
+div.car-facts {
+  border: 2px solid black;
+  margin-left: 285px;
+  margin-right: 285px;
+}
+
 h3 {
+  text-align: center;
+  color: black;
+  background-color: rgb(206, 139, 80);
+}
+
+ul {
+  list-style: none;
   text-align: center;
   color: black;
   background-color: rgb(206, 139, 80);
